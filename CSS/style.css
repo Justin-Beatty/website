@@ -1,5 +1,10 @@
 .title {
     font-size: 3em;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#subtitle {
+    font-family: 'Montserrat', sans-serif;;
 }
 
 .dropdown:hover .dropdown-menu {
