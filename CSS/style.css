@@ -1,0 +1,11 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
