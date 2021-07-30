@@ -1,4 +1,8 @@
 /*nav bar*/
+#navLogo {
+  width: 60%;
+  height: 60%;
+}
 
 .title {
     font-size: 3em;
@@ -37,6 +41,13 @@
 
 .dropdown-toggle::after {
     content: none;
+}
+
+/*footer*/
+
+#footerLogo {
+  width: 10rem;
+  height: 7rem;
 }
 
 
