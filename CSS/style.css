@@ -1,3 +1,5 @@
+/*nav bar*/
+
 .title {
     font-size: 3em;
     font-family: 'Julius Sans One', sans-serif;
@@ -11,6 +13,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.navBorder {
+  border: 5px solid #035928;
+}
+
+#navbarText {
+  /*font-family: 'Cabin Condensed', sans-serif;*/
+}
+
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -20,17 +30,49 @@
     content: none;
 }
 
+
+
+/* construction.html*/
 .bgImg {
     background-image: url(../pics/nature_new.jpg);
     opacity: 0.8;
     height: 960px;
 }
 
-#navbarText {
-    /*font-family: 'Cabin Condensed', sans-serif;*/
+
+
+
+/* mission.html 
+iframe {
+  
+  width: 100%    !important;
+  height: 100%   !important;
+}
+*/
+
+
+@media (max-width: 1399px) {
+  iframe {
+    width: 420px;
+    height: 237px;
+  }
 }
 
-/*card flip on Teams page*/
+@media (min-width: 1400px) {
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+.videoCard {
+  display: block;
+  overflow: auto;
+}
+
+/* teams.html */
+
+/*card flip*/
 .card-flip > div {
     backface-visibility: hidden;
     transition: transform 300ms;
