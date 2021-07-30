@@ -17,8 +17,17 @@
   border: 5px solid #035928;
 }
 
-#navbarText {
-  /*font-family: 'Cabin Condensed', sans-serif;*/
+@media (max-width: 1200px) {
+  #navbarText {
+    /*font-family: 'Cabin Condensed', sans-serif;*/
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1201px) {
+  #navbarText {
+    /*font-family: 'Cabin Condensed', sans-serif;*/
+    font-size: 2rem;
+  }
 }
 
 
@@ -42,33 +51,14 @@
 
 
 
-/* mission.html 
-iframe {
-  
-  width: 100%    !important;
-  height: 100%   !important;
-}
-*/
+/* mission.html */
 
-
-@media (max-width: 1399px) {
   iframe {
-    width: 420px;
-    height: 237px;
+  width: 32rem !important;
+  height: 18rem  !important;
   }
-}
 
-@media (min-width: 1400px) {
-  iframe {
-    width: 560px;
-    height: 315px;
-  }
-}
 
-.videoCard {
-  display: block;
-  overflow: auto;
-}
 
 /* teams.html */
 
