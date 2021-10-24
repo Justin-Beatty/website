@@ -23,15 +23,15 @@
     
    </head>
 
-   <body class="mainBG text-white">
+   <body class="mainBG">
     <div class="container-fluid">
       <div class="row vh-100">
-        <nav class="navbar navbar-expand-lg navbar-light text-white mb-auto" style="background-color: black;">
+        <nav class="navbar navbar-expand-lg navbar-light mb-auto" style="background-color: white;">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-              <div class="d-flex text-white">
+              <div class="d-flex justify-content-center">
                 <div class="col-4">
-                  <img src="./pics/door-open-fill.svg" class="d-inline-block align-text-center" width="80" height="80">
+                  <img src="./pics/door-open-fill.svg" class="d-inline-block align-text-center" width="60" height="60">
                 </div>
                 <div class="col-8 text-center">
                   <h1 class="mb-0">goPursue</h1>
@@ -43,7 +43,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end text-sm-end"  id="navbarText">
               <ul class="navbar-nav mb-lg-0 fs-3">
-                <li class="nav-item dropdown  ms-5"><a class="nav-link active dropdown-toggle text-white" aria-expanded="false" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">About</a>
+                <li class="nav-item dropdown  ms-5"><a class="nav-link active dropdown-toggle" aria-expanded="false" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">About</a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="mission.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
                       <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
@@ -56,7 +56,7 @@
                     </svg> Ways to Support</a></li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown  ms-5"><a class="nav-link dropdown-toggle text-white" aria-expanded="false" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Contact</a>
+                <li class="nav-item dropdown  ms-5"><a class="nav-link dropdown-toggle" aria-expanded="false" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Contact</a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                       <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
@@ -77,16 +77,32 @@
         <br>
         <br>
         <div class="jumbotron mb-auto mainBG text-white text-center title">
-          <div class="container">
-            <h2>Empowering students to find their path to the future.</h2>
-            <img src="./pics/istockphoto-535480836-612x612.jpg" >
+          <div class="container d-flex align-items-center">
+              <div class="col-6">
+                <h1 class="align-middle">Find your path to the future.</h1>
+              </div>
+              <div class="col-6">
+                <img src="./pics/stairs(arctic_full_cropped).jpg" width="480" height="600" >
+              </div>
 
           </div>
         </div>
-    
-           <!-- end of main content -->
-  
-        <div class="container-fluid mt-auto">
+        
+        <div class="container d-flex align-items-center">
+          <div class="smartphone gx-0 mt-5 col-6">
+            <div class="content">
+              <iframe src="careercard.html"  style="width:100%;border:none;height:100%"></iframe>
+            </div>
+          </div>
+
+            <div class="container col-6 text-white d-flex">
+              <h1>Introducing a career app for your phone.</h1>
+            </div>
+
+        </div>
+
+
+        <nav class="navbar footerBG mt-auto">
           <hr>
           <div class="row text-center">
             <div class="col-3"><p>Uncover Education, LLC</p></div>
@@ -95,7 +111,20 @@
             <div class="col-3"><p>Est. 2020</p></div>
           </div>
           <hr>
-        </div>
+        </nav>
+             <!--end of main content -->
+
+        <nav class="navbar footerBG fixed-bottom mt-auto">
+          <hr>
+          <div class="row text-center">
+            <div class="col-3"><p>Uncover Education, LLC</p></div>
+            <div class="col-3"><p>Washington, DC</p></div>
+            <div class="col-3"><p>Contact Info</p></div>
+            <div class="col-3"><p>Est. 2020</p></div>
+          </div>
+          <hr>
+        </nav>
+
       </div>
     </div>
 

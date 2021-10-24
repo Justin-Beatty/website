@@ -5,7 +5,7 @@
 }
 
 .mainBG {
-  background-color: black;
+  background-color: #306EA5;
 }
 
 .title {
@@ -66,6 +66,10 @@
   height: 7rem;
 }
 
+.footerBG {
+  background-color: white;
+}
+
 /* construction.html*/
 .bgImg {
     background-image: url(../pics/nature_new.jpg);
@@ -73,10 +77,50 @@
     height: 960px;
 }
 
-/* mission.html */
+  /* smartphone on index.html (from w3schools.com)*/
 
-  iframe {
-  width: 32rem !important;
-  height: 18rem  !important;
+  .smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
   }
-
+  
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+  }
+  
+  /* The screen (or content) of the device */
+  .smartphone .content {
+    width: 330px;
+    height: 520px;
+    background: white;
+  }
